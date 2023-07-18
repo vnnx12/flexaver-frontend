@@ -1,0 +1,36 @@
+.search-container {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  padding: 10px;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.dropdown li {
+  padding: 5px;
+}
+
+.dropdown li:hover {
+  background-color: #e9e9e9;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 40px; /* Add border-radius for rounded input */
+  padding: 8px 12px;
+  font-size: 16px;
+  width: 600px;
+  height: 40px;
+}
+

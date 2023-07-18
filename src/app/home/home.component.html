@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="nav-container">
+      <app-nav></app-nav>
+    </div>
+    <div class="content-one">
+      <h1 class="s1" [innerHTML]="text.title"></h1>
+      <h2 class="body" [innerHTML]="text.body"></h2>
+      <app-searchbar></app-searchbar>
+      <div class="word-boxes">
+        <button class="word-box">{{text.but1}}</button>
+        <button class="word-box">{{text.but2}}</button>
+        <button class="word-box">{{text.but3}}</button>
+        <button class="word-box">{{text.but4}}</button>
+        <button class="word-box">{{text.but5}}</button>
+        <button class="word-box">{{text.but6}}</button>
+      </div>
+      <div class="pics1">
+        <div class="image-box">
+          <img src="../assets/image/bubble.svg">
+          <div class="image-caption">Bubble</div>
+        </div>
+        <div class="image-box">
+          <img src="../assets/image/carousel.svg">
+          <div class="image-caption">Carousel</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="slider-wrapper">
+      <div class="slider">
+        <img id="slider1" src="../assets/image/slider-bubble.svg" class="bub1">
+        <img id="slider2" src="../assets/image/slider-carousel.svg" class="bub2">
+      </div>
+      <div class="slider-nav">
+        <a href="slider1"></a>
+        <a href="slider2"></a>
+      </div>
+      <div class="content-bubble">
+        <h2>Bubble</h2>
+        <p>{{text.bubble}}</p>
+      </div>
+      <div class="img-flex">
+        <img src="../assets/image/flex-img.svg" class="fleximg">
+      </div>
+      <div class="content-flex">
+        <h2>Flex Messages</h2>
+        <p [innerHTML]="text.flex"></p>
+      </div>
+
+    </div>
+    
+  </div>
+
+  
+  

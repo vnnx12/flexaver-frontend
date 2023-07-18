@@ -1,0 +1,7 @@
+<div class="search-container">
+    <input type="text" placeholder="Search your flex" (input)="onInputChange($event)" />
+    <ul class="dropdown" *ngIf="showDropdown">
+      <li *ngFor="let item of dropdownItems" (click)="selectItem(item)">{{ item }}</li>
+    </ul>
+  </div>
+  
